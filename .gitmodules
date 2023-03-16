@@ -1,0 +1,4 @@
+[submodule ".local/lal/i/src/haxe"]
+	path = .local/lal/i/src/haxe
+	url = https://github.com/HaxeFoundation/haxe
+	branch = development
