@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# pin the haxe package to the checked out Haxe source directory
+opam pin add haxe "$BERTHA_HEAD"/.local/lal/i/src/haxe --kind=path --no-action
+
+# install the haxe package dependencies (as listed in the `opam` file)
+opam install haxe --deps-only
